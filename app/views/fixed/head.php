@@ -10,6 +10,7 @@
 
 <head>
     <title>Tasty Burger Restaurants | <?= strtoupper($page) ?></title>
+    <link rel="icon" href="app/assets/images/burgerIkonica.ico">
     <!-- Meta tag Keywords -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8"/>
