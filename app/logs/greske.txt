@@ -1,0 +1,13 @@
+Your email is not correct!
+Your password is not correct!
+Wrong format of First Name!
+Wrong format of Last Name!
+Wrong format of Email!
+Wrong format of First Name!
+Wrong format of Last Name!
+Wrong format of Email!
+Wrong format of Password!
+Wrong format of First Name!
+Wrong format of Last Name!
+Wrong format of Email!
+Wrong format of Password!
