@@ -1,48 +1,48 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>localhost/index.php?page=home</loc>
+        <loc>https://tasty-burger-site.000webhostapp.com/index.php?page=home</loc>
         <lastmod>2020-02-17</lastmod>
         <changefreq>daily</changefreq>
         <priority>1</priority>
     </url>
     <url>
-        <loc>localhost/index.php?page=about</loc>
+        <loc>https://tasty-burger-site.000webhostapp.com/index.php?page=about</loc>
         <lastmod>2020-02-17</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
     </url>
     <url>
-        <loc>localhost/index.php?page=menu</loc>
+        <loc>https://tasty-burger-site.000webhostapp.com/index.php?page=menu</loc>
         <lastmod>2020-02-17</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>localhost/index.php?page=reviews</loc>
+        <loc>https://tasty-burger-site.000webhostapp.com/index.php?page=reviews</loc>
         <lastmod>2020-02-17</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>localhost/index.php?page=contact</loc>
+        <loc>https://tasty-burger-site.000webhostapp.com/index.php?page=contact</loc>
         <lastmod>2020-02-17</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>localhost/index.php?page=login</loc>
+        <loc>https://tasty-burger-site.000webhostapp.com/index.php?page=logovanje</loc>
         <lastmod>2020-02-17</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>localhost/index.php?page=register</loc>
+        <loc>https://tasty-burger-site.000webhostapp.com/index.php?page=registration</loc>
         <lastmod>2020-02-17</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>localhost/index.php?page=admin</loc>
+        <loc>https://tasty-burger-site.000webhostapp.com/index.php?page=admin</loc>
         <lastmod>2020-02-17</lastmod>
         <changefreq>daily</changefreq>
         <priority>0.8</priority>
