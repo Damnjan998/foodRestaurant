@@ -75,22 +75,42 @@
 				break;
 
 			case "logovanje":
+				if (isset($_SESSION['korisnik'])) {
+					header("location: index.php?page=home");
+					break;
+				}
 				$pageController->logovanje();
 				break;
 
 			case "login":
+				if (isset($_SESSION['korisnik'])) {
+					header("location: index.php?page=home");
+					break;
+				}
 				$authController->login();
 				break;
 
 			case "registration":
+				if (isset($_SESSION['korisnik'])) {
+					header("location: index.php?page=home");
+					break;
+				}
 				$pageController->registration();
 				break;
 
 			case "register":
+				if (isset($_SESSION['korisnik'])) {
+					header("location: index.php?page=home");
+					break;
+				}
 				$authController->register();
 				break;
 
 			case "logout":
+				if (!isset($_SESSION['korisnik'])) {
+					header("location: index.php?page=home");
+					break;
+				}
 				$authController->logout();
 				break;
 
@@ -99,6 +119,10 @@
 				break;
 
 			case "admin":
+				if (!isset($_SESSION['korisnik']) || (isset($_SESSION["korisnik"]) and $_SESSION["korisnik"]->id_uloga == 1)) {
+					header("location: index.php?page=home");
+					break;
+				}
 				$pageController->admin();
 				break;
 
